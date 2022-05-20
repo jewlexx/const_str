@@ -30,7 +30,7 @@ pub fn derive_const_str(input: proc_macro::TokenStream) -> proc_macro::TokenStre
 
     let v = quote! {
         impl #name {
-            const fn const_to_string(&self) -> &'static str {
+            pub const fn const_to_string(&self) -> &'static str {
                 match *self {
                     #(#arms),*
                 }
