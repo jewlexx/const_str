@@ -1,9 +1,9 @@
 [package]
-name = "const_str"
+name = "const_strum"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-description = "Convert enum variants to strings in a constant context."
+description = "Convert enum variants to strings in a constant context. (const str[ing] [e]num)"
 
 [lib]
 proc-macro = true

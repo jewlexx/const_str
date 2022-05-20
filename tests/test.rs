@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use const_str::ConstStr;
+    use const_strum::ConstStr;
 
     #[derive(ConstStr)]
     enum TestEnum {
